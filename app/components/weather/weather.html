@@ -1,0 +1,17 @@
+<div class="windsun small dimmed">
+  <span class="wind"><span class="wi wi-strong-wind xdimmed"></span> {{bft}}</span>
+  <span class="sun"><span class="wi xdimmed" [ngClass]="sunIcon"></span> {{sunriseOrSunset}}</span>
+</div>
+<div class="temp"><span class="icon dimmed wi" [ngClass]="weatherIcon"></span> {{temperature}} &deg;{{params.units === 'metric' ? 'C' : 'F'}}</div>
+<div class="forecast small dimmed">
+  <table class="forecast-table">
+    <tbody>
+      <tr *ngFor="#forecast of forecasts">
+        <td class="day">{{forecast.dt | moment:'ddd'}}</td>
+        <td class="icon-small wi" [ngClass]="iconTable[forecast.weather[0].icon]"></td>
+        <td class="temp-min">{{forecast.temp.min | roundValue}}</td>
+        <td class="temp-max">{{forecast.temp.max | roundValue}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

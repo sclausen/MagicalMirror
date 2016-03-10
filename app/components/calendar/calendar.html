@@ -1,0 +1,12 @@
+<table class="xsmall calendar-table" (click)="authenticationService.login(false)">
+  <tbody>
+    <tr *ngFor="#item of appointments">
+      <td class="description" style="padding-right:20px">{{item.summary}}</td>
+      <td class="dimmed">{{moment(item.start.dateTime).format('ddd')}}</td>
+      <td class="dimmed">{{moment(item.start.dateTime).format('HH:mm')}}</td>
+      <td class="dimmed">–</td>
+      <td class="dimmed">{{moment(item.end.dateTime).format('ddd')}}</td>
+      <td class="dimmed">{{moment(item.end.dateTime).format('HH:mm')}}</td>
+    </tr>
+  </tbody>
+</table>

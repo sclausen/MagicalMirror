@@ -1,0 +1,179 @@
+body,
+html {
+  background: #000;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: "texgyreherosregular", sans-serif;
+  letter-spacing: -2px;
+  color: #fff;
+  font-size: 75px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricprecision;
+}
+
+.wi {
+  line-height: 75px;
+}
+
+.top {
+  position: absolute;
+  top: 50px;
+}
+
+.left {
+  position: absolute;
+  left: 50px;
+}
+
+.right {
+  position: absolute;
+  right: 50px;
+  text-align: right;
+}
+
+.center-ver {
+  position: absolute;
+  top: 50%;
+  height: 200px;
+  margin-top: -100px;
+  line-height: 100px;
+}
+
+.center-hor {
+  position: absolute;
+  right: 50px;
+  left: 50px;
+  text-align: center;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 50px;
+}
+
+.xxsmall,
+.xsmall,
+.small {
+  font-family: "texgyreherosregular", sans-serif;
+  letter-spacing: 0;
+}
+
+.xxsmall {
+  font-size: 15px;
+}
+
+.xxsmall .wi {
+  line-height: 15px;
+}
+
+.xsmall {
+  font-size: 20px;
+}
+
+.xsmall .wi {
+  line-height: 20px;
+}
+
+.small {
+  font-size: 25px;
+}
+
+.small .wi {
+  line-height: 25px;
+}
+
+.medium {
+  font-size: 35px;
+  letter-spacing: -1px;
+  font-family: "texgyreherosregular", sans-serif;
+}
+
+.medium .wi {
+  line-height: 35px;
+}
+
+.xdimmed {
+  color: #666;
+}
+
+.dimmed {
+  color: #aaa;
+}
+
+.light {
+  font-family: "texgyreherosregular", sans-serif;
+}
+
+.icon {
+  position: relative;
+  top: -10px;
+  display: inline-block;
+  font-size: 45px;
+  padding-right: 5px;
+  font-weight: 100;
+  margin-right: 10px;
+}
+
+.icon-small {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: -10px;
+  font-weight: 100;
+}
+
+.time .sec {
+  font-size: 25px;
+  color: #666;
+  padding-left: 5px;
+  position: relative;
+  top: -35px;
+}
+
+.forecast-table {
+  float: right;
+  text-align: right;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.forecast-table .day,
+.forecast-table .temp-min,
+.forecast-table .temp-max {
+  width: 50px;
+  text-align: right;
+}
+
+.forecast-table .temp-max {
+  width: 60px;
+}
+
+.forecast-table .day {
+  color: #999;
+}
+
+.calendar-table {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.calendar-table .days {
+  padding-left: 20px;
+  text-align: right;
+}
+
+@font-face {
+  font-family: 'texgyreherosregular';
+  src: url('font/texgyreheros-regular-webfont.eot');
+  src: url('font/texgyreheros-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('font/texgyreheros-regular-webfont.woff2') format('woff2'),
+       url('font/texgyreheros-regular-webfont.woff') format('woff'),
+       url('font/texgyreheros-regular-webfont.ttf') format('truetype'),
+       url('font/texgyreheros-regular-webfont.svg#texgyreherosregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

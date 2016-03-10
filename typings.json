@@ -1,0 +1,11 @@
+{
+  "name": "magicmirror",
+  "dependencies": {
+
+  },
+  "devDependencies": {},
+  "ambientDependencies": {
+    "gapi": "registry:dt/gapi#0.0.0+20150806003847",
+    "moment": "registry:dt/moment#2.8.0+20150810140021"
+  }
+}
