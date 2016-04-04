@@ -8,7 +8,7 @@ Currently it supports four widgets. Calendar, Time, News and Weather. The app is
 ## Dependencies
 
 * [npm](https://www.npmjs.com/)
-* [typings](npmjs.com/package/typings)
+* [typings](https://npmjs.com/package/typings)
 * any webserver like [http-server](https://www.npmjs.com/package/http-server) or [nginx](http://nginx.org/)
 
 ## Install
